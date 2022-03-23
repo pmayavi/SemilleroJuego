@@ -1,0 +1,984 @@
+fileFormatVersion: 2
+guid: a4bf94a89ac909f42ba3d30b9ffe55b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1308290773982556417
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_0
+  - first:
+      213: 7231509525664781429
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_1
+  - first:
+      213: -4417715381029722970
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_2
+  - first:
+      213: -640581197084885754
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_3
+  - first:
+      213: -4798728810714902748
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_4
+  - first:
+      213: 2199287931769417894
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_5
+  - first:
+      213: 1500961393455547560
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_6
+  - first:
+      213: -4705378963893801679
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_7
+  - first:
+      213: 4942777590925971039
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_8
+  - first:
+      213: 7551979271343723409
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_9
+  - first:
+      213: -1907678926523970492
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_10
+  - first:
+      213: -6473121529942601232
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_11
+  - first:
+      213: 8749790070519639146
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_12
+  - first:
+      213: -6077148017892342267
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_13
+  - first:
+      213: 3812715135021879431
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_14
+  - first:
+      213: 1854082303616135776
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_15
+  - first:
+      213: -6819375909164909114
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_16
+  - first:
+      213: 6372788529650692452
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_17
+  - first:
+      213: -4409470629553918010
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_18
+  - first:
+      213: 3797691873083212011
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_19
+  - first:
+      213: 7615541262191647430
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_20
+  - first:
+      213: 6779478644862375727
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_21
+  - first:
+      213: 2778729341806631169
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_22
+  - first:
+      213: -3323423881084098354
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_23
+  - first:
+      213: 5261199686899827571
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_24
+  - first:
+      213: 856225321104159773
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_25
+  - first:
+      213: 879116463932305897
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_26
+  - first:
+      213: -3805074267555325824
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_27
+  - first:
+      213: -3213623387194096357
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_28
+  - first:
+      213: 3556889000078189987
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_29
+  - first:
+      213: 2363309113038001406
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_30
+  - first:
+      213: -7759994958817149681
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_31
+  - first:
+      213: 3668695646315537240
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_32
+  - first:
+      213: -4397470583910803613
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_33
+  - first:
+      213: 476866284806912705
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_34
+  - first:
+      213: 4655610271567337076
+    second: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 193
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe49d1097408dde0800000000000000
+      internalID: -1308290773982556417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 193
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5745a13799b7b5460800000000000000
+      internalID: 7231509525664781429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 192
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4a1fa544f11b2c0800000000000000
+      internalID: -4417715381029722970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 191
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60df5f19bc23c17f0800000000000000
+      internalID: -640581197084885754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 192
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fc7e7429d776db0800000000000000
+      internalID: -4798728810714902748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 193
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a07bebb8b0758e10800000000000000
+      internalID: 2199287931769417894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 192
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a44e765f6c74d410800000000000000
+      internalID: 1500961393455547560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_7
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 191
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13da38333c223beb0800000000000000
+      internalID: -4705378963893801679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_8
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 192
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e47eee706489440800000000000000
+      internalID: 4942777590925971039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 128
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1935e8b92250ec860800000000000000
+      internalID: 7551979271343723409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 128
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c4a07af109685e0800000000000000
+      internalID: -1907678926523970492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_11
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 129
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f196dbb34ada26a0800000000000000
+      internalID: -6473121529942601232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_12
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 129
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c2094f5bf7d6970800000000000000
+      internalID: 8749790070519639146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_13
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 128
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506ce0a6312a9aba0800000000000000
+      internalID: -6077148017892342267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_14
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 128
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7801cb4f63c79e430800000000000000
+      internalID: 3812715135021879431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_15
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 128
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062b06328060bb910800000000000000
+      internalID: 1854082303616135776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_16
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 128
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd7e50cdb5bc51a0800000000000000
+      internalID: -6819375909164909114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_17
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 128
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461738a3761b07850800000000000000
+      internalID: 6372788529650692452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfabe523d96ec2c0800000000000000
+      internalID: -4409470629553918010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_19
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 64
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0438533ac14b430800000000000000
+      internalID: 3797691873083212011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_20
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 63
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca5349dd66dfa960800000000000000
+      internalID: 7615541262191647430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 63
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f275e5588eb851e50800000000000000
+      internalID: 6779478644862375727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_22
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 63
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109d6513d97009620800000000000000
+      internalID: 2778729341806631169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_23
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 64
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8aee1a693d0e1d0800000000000000
+      internalID: -3323423881084098354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_24
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 63
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3738f0e7d39830940800000000000000
+      internalID: 5261199686899827571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_25
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 63
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14bb10a46ce1eb00800000000000000
+      internalID: 856225321104159773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_26
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 63
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1f1e424cf333c00800000000000000
+      internalID: 879116463932305897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_27
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08892622d19a13bc0800000000000000
+      internalID: -3805074267555325824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_28
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15886c4e8ae663d0800000000000000
+      internalID: -3213623387194096357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_29
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5a72b43bb9c5130800000000000000
+      internalID: 3556889000078189987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_30
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4d211fd192cc020800000000000000
+      internalID: 2363309113038001406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_31
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0db1ecf2b5fe4490800000000000000
+      internalID: -7759994958817149681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853e8a3b043d9e230800000000000000
+      internalID: 3668695646315537240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_33
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36754cf7dcb09f2c0800000000000000
+      internalID: -4397470583910803613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_34
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 0
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cab6470c5b2e9600800000000000000
+      internalID: 476866284806912705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_35
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4765e6120ec0c9040800000000000000
+      internalID: 4655610271567337076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
