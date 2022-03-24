@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 917ca52afd4cb03479ff144b77fe67dd
+guid: c7642347d9c46da459269b125c5e60f2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4286300797087770627
-    second: 0a_library_0
+      213: 1352232180169069540
+    second: 02_cellar_0
   - first:
-      213: 7551231722213620910
-    second: 0a_library_1
+      213: 1432080000539010354
+    second: 02_cellar_1
   - first:
-      213: 3067931844945007865
-    second: 0a_library_2
+      213: -392672839444656326
+    second: 02_cellar_4
   - first:
-      213: -5194353948706669849
-    second: 0a_library_3
-  - first:
-      213: 6145488762585382914
-    second: 0a_library_4
-  - first:
-      213: -4659143343666696610
-    second: 0a_library_5
+      213: 6762667676395472682
+    second: 02_cellar_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -50,7 +44,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -64,7 +58,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 52
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,143 +87,89 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 0a_library_0
+      name: 02_cellar_0
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 0
+        width: 338
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e354d0e00814c210800000000000000
+      internalID: 1352232180169069540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_cellar_1
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 182
+        width: 338
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235a11a4c25cfd310800000000000000
+      internalID: 1432080000539010354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_cellar_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 312
-        width: 234
-        height: 156
+        y: 182
+        width: 676
+        height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: df71c1582200484c0800000000000000
-      internalID: -4286300797087770627
+      spriteID: a3f05fb0222fc8af0800000000000000
+      internalID: -392672839444656326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0a_library_1
-      rect:
-        serializedVersion: 2
-        x: 234
-        y: 312
-        width: 234
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eac34334e3d5bc860800000000000000
-      internalID: 7551231722213620910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 0a_library_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 156
-        width: 234
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f45e0522cb739a20800000000000000
-      internalID: 3067931844945007865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 0a_library_3
-      rect:
-        serializedVersion: 2
-        x: 234
-        y: 156
-        width: 234
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7eaf0b1ca92f9e7b0800000000000000
-      internalID: -5194353948706669849
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 0a_library_4
+      name: 02_cellar_5
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 234
-        height: 156
+        width: 676
+        height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2008e092879294550800000000000000
-      internalID: 6145488762585382914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 0a_library_5
-      rect:
-        serializedVersion: 2
-        x: 234
-        y: 0
-        width: 234
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5eee1b60d5675fb0800000000000000
-      internalID: -4659143343666696610
+      spriteID: a278199eb62d9dd50800000000000000
+      internalID: 6762667676395472682
       vertices: []
       indices: 
       edges: []
