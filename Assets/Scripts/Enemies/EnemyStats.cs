@@ -16,9 +16,11 @@ public class EnemyStats : MonoBehaviour
     public float damage;
     public float speed;
     public float points;
+    public GameObject me;
 
     void Start()
     {
+        me = gameObject;
         dead = false;
         health = maxHealth;
         animator = GetComponent<Animator>();
