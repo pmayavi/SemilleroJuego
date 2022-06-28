@@ -23,6 +23,10 @@ public class ProyectileScript : MonoBehaviour
             {
                 collision.GetComponent<BurnScript>().Burn();
             }
+            else if (collision.GetComponent<FrogBoss>() != null)
+            {
+                collision.GetComponent<FrogBoss>().Hurt(dmg);
+            }
             Destroy(gameObject);
         }
     }
