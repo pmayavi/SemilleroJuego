@@ -15,7 +15,8 @@ public class SwordScript : MonoBehaviour
     public float bombCoolDown;
     private float time;
 
-    void Start(){
+    void Start()
+    {
         time = bombCoolDown;
     }
 
@@ -28,7 +29,8 @@ public class SwordScript : MonoBehaviour
         }
     }
 
-    private void OnClick(){
+    private void OnClick()
+    {
         if (!spell && Input.GetMouseButtonDown(0))
         {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -41,24 +43,29 @@ public class SwordScript : MonoBehaviour
             spell.transform.localScale = new Vector2(attackSize, attackSize);
             spell.transform.parent = transform;
         }
-        
+
         if (Input.GetKey(KeyCode.E))
         {
             time -= Time.deltaTime;
-            if(time <= 0){
+            if (time <= 0)
+            {
                 time = bombCoolDown;
                 Instantiate(bomb, transform.position, Quaternion.identity);
             }
         }
-        
     }
 
-    private void Rotate(){
-        if(spell){
-            if(angle <= maxAngle){
+    private void Rotate()
+    {
+        if (spell)
+        {
+            if (angle <= maxAngle)
+            {
                 angle += attackSpeed;
                 spell.transform.eulerAngles = Vector3.forward * angle;
-            }else Destroy(spell);
+            }
+            else
+                Destroy(spell);
         }
     }
 

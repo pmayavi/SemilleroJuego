@@ -11,13 +11,25 @@ public class PlayerStats : MonoBehaviour
     public Slider healthBarSlider;
     public Text healthBarText;
 
-    public Text speedText, dmgProyectileText, sizeProyectileText, speedProyectileText;
-    public Text dmgSwordText, sizeSwordText, speedSwordText, pointsText;
+    public Text speedText,
+        dmgProyectileText,
+        sizeProyectileText,
+        speedProyectileText;
+    public Text dmgSwordText,
+        sizeSwordText,
+        speedSwordText,
+        pointsText;
 
     protected float health;
-    public float maxHealth, speed;
-    public float proyectileDamage, proyectileSpeed, proyectileSize;
-    public float swordDamage, swordSpeed, swordSize, point;
+    public float maxHealth,
+        speed;
+    public float proyectileDamage,
+        proyectileSpeed,
+        proyectileSize;
+    public float swordDamage,
+        swordSpeed,
+        swordSize,
+        point;
 
     void Awake()
     {
@@ -36,9 +48,9 @@ public class PlayerStats : MonoBehaviour
         player.GetComponent<SpellScript>().damage = proyectileDamage;
         player.GetComponent<SpellScript>().force = proyectileSpeed;
         player.GetComponent<SpellScript>().size = proyectileSize;
-        player.GetComponent<SwordScript>().damage = swordDamage;
-        player.GetComponent<SwordScript>().attackSpeed = swordSpeed;
-        player.GetComponent<SwordScript>().attackSize = swordSize;
+        player.GetComponent<PlayerMovement>().damage = swordDamage;
+        //player.GetComponent<SwordScript>().attackSpeed = swordSpeed;
+        //player.GetComponent<SwordScript>().attackSize = swordSize;
     }
 
     void Update()
