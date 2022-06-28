@@ -40,6 +40,10 @@ public class BombScript : MonoBehaviour
         {
             collision.GetComponent<BurnScript>().Burn();
         }
+        else if (collision.GetComponent<FrogBoss>() != null)
+        {
+            collision.GetComponent<FrogBoss>().Hurt(dmg);
+        }
     }
 
 

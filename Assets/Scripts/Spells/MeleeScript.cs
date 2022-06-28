@@ -23,6 +23,10 @@ public class MeleeScript : MonoBehaviour
             {
                 collision.GetComponent<BurnScript>().Burn();
             }
+            else if (collision.GetComponent<FrogBoss>() != null)
+            {
+            collision.GetComponent<FrogBoss>().Hurt(dmg);
+            }
         }
     }
 }
