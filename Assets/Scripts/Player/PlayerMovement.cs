@@ -92,7 +92,6 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.E))
         {
-            time -= Time.deltaTime;
             if (time <= 0)
             {
                 freeze = true;
@@ -142,8 +141,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
+        float delta = Time.deltaTime;
+        time -= delta;
         Animations(direction);
-        transform.Translate(direction * speed * Time.deltaTime);
+        transform.Translate(direction * speed * delta);
     }
 
     private void Animations(Vector2 direction)
