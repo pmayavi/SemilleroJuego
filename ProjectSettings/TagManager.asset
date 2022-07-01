@@ -43,8 +43,14 @@ TagManager:
   - name: Background
     uniqueID: 832508313
     locked: 0
+  - name: Offset
+    uniqueID: 1289533405
+    locked: 0
   - name: Wall
     uniqueID: 3656809113
+    locked: 0
+  - name: Floor
+    uniqueID: 2261721951
     locked: 0
   - name: Default
     uniqueID: 0
