@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyMelee : MonoBehaviour
 {
-    private float damage;
+    public float damage;
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -14,7 +14,8 @@ public class EnemyMelee : MonoBehaviour
         }
     }
 
-    public void SetDamage(float dmg){
+    public void SetDamage(float dmg)
+    {
         damage = dmg;
     }
 }
