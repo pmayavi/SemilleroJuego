@@ -196,6 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77b9dabed1f1d1459bd3e29ef0757f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 0
 --- !u!114 &10396240471836721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,13 +212,14 @@ MonoBehaviour:
   enemy: {fileID: 10396240471836727}
   healthBar: {fileID: 8129066318737143569}
   healthBarSlider: {fileID: 7895360241582298343}
+  proyectile: {fileID: 1642585432505173477, guid: a9f198fd19aa39a47886d672c9aa7e73, type: 3}
   maxHealth: 1000
   points: 100
-  damageFrog: 50
-  proyectile: {fileID: 1642585432505173477, guid: a9f198fd19aa39a47886d672c9aa7e73, type: 3}
-  force: 20
   shootCooldown: 3
   bulletSize: 20
+  force: 20
+  damage: 50
+  speed: 10
 --- !u!1 &1289693920485697994
 GameObject:
   m_ObjectHideFlags: 0

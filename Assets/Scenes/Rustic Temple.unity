@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 31549663}
   - component: {fileID: 31549662}
   - component: {fileID: 31549665}
-  - component: {fileID: 31549664}
   - component: {fileID: 31549666}
   m_Layer: 0
   m_Name: Colision
@@ -2244,28 +2243,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!66 &31549664
-CompositeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 31549660}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
-  m_GenerationType: 0
-  m_EdgeRadius: 0
-  m_ColliderPaths: []
-  m_CompositePaths:
-    m_Paths: []
-  m_VertexDistance: 0.0005
-  m_OffsetDistance: 0.00005
 --- !u!50 &31549665
 Rigidbody2D:
   serializedVersion: 4
@@ -2316,7 +2293,6 @@ GameObject:
   - component: {fileID: 155184936}
   - component: {fileID: 155184940}
   - component: {fileID: 155184939}
-  - component: {fileID: 155184938}
   m_Layer: 0
   m_Name: Props
   m_TagString: Untagged
@@ -3362,28 +3338,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!66 &155184938
-CompositeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 155184934}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
-  m_GenerationType: 0
-  m_EdgeRadius: 0
-  m_ColliderPaths: []
-  m_CompositePaths:
-    m_Paths: []
-  m_VertexDistance: 0.0005
-  m_OffsetDistance: 0.00005
 --- !u!50 &155184939
 Rigidbody2D:
   serializedVersion: 4
@@ -3392,7 +3346,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155184934}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -9239,11 +9193,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 263019153844072620, guid: 6ccda98bae2ad4a44afbe4d57a2180c0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.88
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 263019153844072620, guid: 6ccda98bae2ad4a44afbe4d57a2180c0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.34
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1130652488504658202, guid: 6ccda98bae2ad4a44afbe4d57a2180c0, type: 3}
       propertyPath: m_IsActive

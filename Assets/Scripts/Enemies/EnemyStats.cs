@@ -16,7 +16,7 @@ public class EnemyStats : MonoBehaviour
     public float damage;
     public float speed;
     public float points;
-    public GameObject me;
+    private GameObject me;
 
     void Start()
     {
@@ -24,8 +24,16 @@ public class EnemyStats : MonoBehaviour
         dead = false;
         health = maxHealth;
         animator = GetComponent<Animator>();
-        GetComponent<EnemyFollow>().SetDamage(damage);
-        GetComponent<EnemyFollow>().SetSpeed(speed);
+        if (GetComponent<EnemyFollow>())
+        {
+            GetComponent<EnemyFollow>().SetDamage(damage);
+            GetComponent<EnemyFollow>().SetSpeed(speed);
+        }
+        if (GetComponent<EnemyRandomFollow>())
+        {
+            GetComponent<EnemyRandomFollow>().SetDamage(damage);
+            GetComponent<EnemyRandomFollow>().SetSpeed(speed);
+        }
         if (GetComponent<EnemyMelee>())
             GetComponent<EnemyMelee>().SetDamage(damage);
     }

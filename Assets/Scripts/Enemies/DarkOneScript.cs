@@ -7,6 +7,7 @@ public class DarkOneScript : MonoBehaviour
     private bool canAttack;
     private bool canMove;
     private bool dashing;
+    private bool beaming;
     private GameObject playerObj;
     private Vector2 direction;
     private Animator animator;
@@ -28,6 +29,7 @@ public class DarkOneScript : MonoBehaviour
         canAttack = true;
         canMove = false;
         dashing = false;
+        beaming = false;
         animator = GetComponent<Animator>();
         playerObj = GameObject.FindGameObjectWithTag("Player");
         sprite = GetComponent<SpriteRenderer>();
@@ -39,8 +41,8 @@ public class DarkOneScript : MonoBehaviour
         if (canAttack)
         {
             canAttack = false;
-            var choices = new[] { "ChargeShoot", "ChargeDash", "Stand" };
-            Invoke(choices[Random.Range(0, 3)], 0.1f);
+            var choices = new[] { "ChargeShoot", "ChargeDash", "ChargeBeam", "Stand" };
+            Invoke(choices[Random.Range(0, 4)], 0.1f);
         }
         if (canMove)
         {
@@ -52,9 +54,9 @@ public class DarkOneScript : MonoBehaviour
             Move();
         }
         if (dashing)
-        {
             Move();
-        }
+        if (beaming)
+            Beam();
     }
 
     void Direction()
@@ -79,8 +81,10 @@ public class DarkOneScript : MonoBehaviour
         currentSpeed = speed;
         canMove = true;
         dashing = false;
+        beaming = false;
         animator.SetFloat("charge", 0);
         animator.SetBool("attack", false);
+        animator.SetBool("beam", false);
         Invoke("ResumeAttack", Random.Range(minCooldown, maxCooldown));
     }
 
@@ -150,6 +154,26 @@ public class DarkOneScript : MonoBehaviour
             sprite.flipX = true;
         }
         Invoke("Stand", 1f);
+    }
+
+    void ChargeBeam()
+    {
+        beaming = true;
+        animator.SetBool("beam", true);
+        Invoke("Stand", 2f);
+    }
+
+    void Beam()
+    {
+        Direction();
+        GameObject bullet = Instantiate(proyectile, transform.position, Quaternion.identity);
+        bullet.GetComponent<Rigidbody2D>().velocity = direction * force;
+        bullet.GetComponent<ProyectileScript>().dmg = damage / 2;
+        bullet.GetComponent<Transform>().localScale = new Vector3(
+            bulletSize * 2,
+            bulletSize * 2,
+            1
+        );
     }
 
     void ResumeAttack()

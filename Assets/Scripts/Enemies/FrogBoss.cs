@@ -3,47 +3,86 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FrogBoss : EnemyFollow
+public class FrogBoss : MonoBehaviour
 {
     public GameObject enemy;
-
     public GameObject healthBar;
     public Slider healthBarSlider;
-    private bool dead;
-    protected float health;
+    public GameObject proyectile;
     public float maxHealth;
     public float points;
-    public float damageFrog;
-    private GameObject me;
-    public GameObject proyectile;
-    public float force;
-    private bool shoot;
     public float shootCooldown;
     public int bulletSize;
+    public float force;
+    public float damage;
+    public float speed;
 
-    public override void Start()
+    private BoxCollider2D collide;
+    private SpriteRenderer sprite;
+    private GameObject playerObj;
+    private Vector2 direction;
+    private Animator animator;
+    private GameObject me;
+    private float health;
+    private bool jumping;
+    private bool shoot;
+    private bool dead;
+
+    void Start()
     {
-        damage = damageFrog;
         shoot = true;
+        jumping = false;
         me = gameObject;
         dead = false;
         health = maxHealth;
         animator = GetComponent<Animator>();
-        GetComponent<EnemyFollow>().SetDamage(damage);
-        GetComponent<EnemyFollow>().SetSpeed(speed);
+        sprite = GetComponent<SpriteRenderer>();
+        collide = GetComponent<BoxCollider2D>();
         if (GetComponent<EnemyMelee>())
             GetComponent<EnemyMelee>().SetDamage(damage);
         if (playerObj == null)
             playerObj = GameObject.FindGameObjectWithTag("Player");
     }
 
-    public override void Move()
+    public virtual void Update()
     {
         if (dead && animator.GetBool("death") == false)
         {
             GameObject.Find("GameManager").GetComponent<PlayerStats>().Point(points);
             Destroy(gameObject);
         }
+        if (jumping)
+        {
+            transform.Translate(direction * speed * Time.deltaTime);
+            if (
+                transform.position.x > 63.5
+                || transform.position.x < -63.5
+                || transform.position.y > 14
+                || transform.position.y < -42
+            )
+                Direction();
+        }
+        else
+        {
+            Direction();
+            Move();
+        }
+    }
+
+    public virtual void Direction()
+    {
+        if (playerObj)
+        {
+            Vector2 playerPos = playerObj.transform.position;
+            Vector2 myPos = transform.position;
+            direction = (playerPos - myPos).normalized;
+        }
+        else
+            direction = Vector2.zero;
+    }
+
+    public void Move()
+    {
         if (playerObj && shoot)
         {
             shoot = false;
@@ -81,6 +120,8 @@ public class FrogBoss : EnemyFollow
         animator.SetBool("Damage", false);
         if (health <= 0)
             Death();
+        else
+            Jump();
     }
 
     public void Heal(float heal)
@@ -95,6 +136,27 @@ public class FrogBoss : EnemyFollow
     {
         animator.SetBool("death", true);
         dead = true;
+    }
+
+    void Jump()
+    {
+        animator.SetBool("jump", true);
+        jumping = true;
+        collide.enabled = false;
+        Direction();
+        direction = direction * -1;
+        if (direction.x > 0)
+            sprite.flipX = true;
+        else if (direction.x < 0)
+            sprite.flipX = false;
+        Invoke("StopJump", 1.25f);
+    }
+
+    void StopJump()
+    {
+        animator.SetBool("jump", false);
+        jumping = false;
+        collide.enabled = true;
     }
 
     private void SliderPercentage()
