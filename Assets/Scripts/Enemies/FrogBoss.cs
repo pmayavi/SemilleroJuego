@@ -3,23 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FrogBoss : MonoBehaviour
+public class FrogBoss : EnemyFollow
 {
     public GameObject enemy;
 
     public GameObject healthBar;
     public Slider healthBarSlider;
-    private Animator animator;
     private bool dead;
     protected float health;
     public float maxHealth;
-    public float damage;
-    public float speed;
     public float points;
-    public GameObject me;
+    public float damageFrog;
+    private GameObject me;
+    public GameObject proyectile;
+    public float force;
+    private bool shoot;
+    public float shootCooldown;
+    public int bulletSize;
 
-    void Start()
+    public override void Start()
     {
+        damage = damageFrog;
+        shoot = true;
         me = gameObject;
         dead = false;
         health = maxHealth;
@@ -28,22 +33,38 @@ public class FrogBoss : MonoBehaviour
         GetComponent<EnemyFollow>().SetSpeed(speed);
         if (GetComponent<EnemyMelee>())
             GetComponent<EnemyMelee>().SetDamage(damage);
+        if (playerObj == null)
+            playerObj = GameObject.FindGameObjectWithTag("Player");
     }
 
-    void Update()
+    public override void Move()
     {
         if (dead && animator.GetBool("death") == false)
         {
             GameObject.Find("GameManager").GetComponent<PlayerStats>().Point(points);
             Destroy(gameObject);
         }
+        if (playerObj && shoot)
+        {
+            shoot = false;
+            animator.SetBool("shoot", true);
+            Invoke("Shoot", 0.2f);
+        }
     }
 
     public void Shoot()
     {
+        GameObject bullet = Instantiate(proyectile, transform.position, Quaternion.identity);
+        bullet.GetComponent<Rigidbody2D>().velocity = direction * force;
+        bullet.GetComponent<ProyectileScript>().dmg = damage;
+        bullet.GetComponent<Transform>().localScale = new Vector3(bulletSize, bulletSize, 1);
         animator.SetBool("shoot", false);
-        if (health <= 0)
-            Death();
+        Invoke("Shoot2", shootCooldown - 0.2f);
+    }
+
+    public void Shoot2()
+    {
+        shoot = true;
     }
 
     public void Hurt(float dmg)

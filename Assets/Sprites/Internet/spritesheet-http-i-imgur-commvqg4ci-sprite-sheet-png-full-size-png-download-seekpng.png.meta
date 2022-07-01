@@ -132,6 +132,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -976,6 +977,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_29: 3556889000078189987
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_20: 7615541262191647430
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_2: -4417715381029722970
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_19: 3797691873083212011
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_23: -3323423881084098354
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_27: -3805074267555325824
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_7: -4705378963893801679
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_28: -3213623387194096357
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_18: -4409470629553918010
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_25: 856225321104159773
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_13: -6077148017892342267
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_34: 476866284806912705
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_31: -7759994958817149681
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_33: -4397470583910803613
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_9: 7551979271343723409
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_16: -6819375909164909114
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_14: 3812715135021879431
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_8: 4942777590925971039
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_12: 8749790070519639146
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_17: 6372788529650692452
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_10: -1907678926523970492
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_11: -6473121529942601232
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_22: 2778729341806631169
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_24: 5261199686899827571
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_3: -640581197084885754
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_32: 3668695646315537240
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_0: -1308290773982556417
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_5: 2199287931769417894
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_1: 7231509525664781429
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_21: 6779478644862375727
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_15: 1854082303616135776
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_6: 1500961393455547560
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_4: -4798728810714902748
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_26: 879116463932305897
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_30: 2363309113038001406
+      spritesheet-http-i-imgur-commvqg4ci-sprite-sheet-png-full-size-png-download-seekpng_35: 4655610271567337076
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

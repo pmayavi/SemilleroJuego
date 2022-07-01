@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1923342123146624067, guid: c7981b1df8c783749a13cf84a9fda2dc, type: 3}
+      propertyPath: standStill
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 4474511850727500576, guid: c7981b1df8c783749a13cf84a9fda2dc, type: 3}
       propertyPath: m_Controller
       value: 

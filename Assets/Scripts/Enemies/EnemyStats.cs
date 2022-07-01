@@ -41,9 +41,16 @@ public class EnemyStats : MonoBehaviour
 
     public void Hurt(float dmg)
     {
+        animator.SetBool("Damage", true);
         healthBar.SetActive(true);
         health -= dmg;
+        Invoke("Damage", 0.25f);
         SliderPercentage();
+    }
+
+    public void Damage()
+    {
+        animator.SetBool("Damage", false);
         if (health <= 0)
             Death();
     }
@@ -62,7 +69,8 @@ public class EnemyStats : MonoBehaviour
         dead = true;
     }
 
-    private void SliderPercentage(){
-        healthBarSlider.value = (health/maxHealth);
+    private void SliderPercentage()
+    {
+        healthBarSlider.value = (health / maxHealth);
     }
 }

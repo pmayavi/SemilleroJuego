@@ -15,11 +15,11 @@ public class ProyectileScript : MonoBehaviour
             {
                 collision.GetComponent<EnemyStats>().Hurt(dmg);
             }
-            if (collision.GetComponent<PlayerMovement>() != null)
+            else if (collision.GetComponent<PlayerMovement>() != null)
             {
                 GameObject.Find("GameManager").GetComponent<PlayerStats>().Hurt(dmg);
             }
-            if (collision.GetComponent<BurnScript>() != null)
+            else if (collision.GetComponent<BurnScript>() != null)
             {
                 collision.GetComponent<BurnScript>().Burn();
             }
