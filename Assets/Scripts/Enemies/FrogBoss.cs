@@ -55,10 +55,10 @@ public class FrogBoss : MonoBehaviour
         {
             transform.Translate(direction * speed * Time.deltaTime);
             if (
-                transform.position.x > 63.5
-                || transform.position.x < -63.5
-                || transform.position.y > 14
-                || transform.position.y < -42
+                transform.position.x > 60
+                || transform.position.x < -60
+                || transform.position.y > 10
+                || transform.position.y < -40
             )
                 Direction();
         }
