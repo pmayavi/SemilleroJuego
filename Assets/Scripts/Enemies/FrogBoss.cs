@@ -55,10 +55,10 @@ public class FrogBoss : MonoBehaviour
         {
             transform.Translate(direction * speed * Time.deltaTime);
             if (
-                transform.position.x > 60
-                || transform.position.x < -60
-                || transform.position.y > 10
-                || transform.position.y < -40
+                transform.position.x > 62f
+                || transform.position.x < -62f
+                || transform.position.y > 12.5f
+                || transform.position.y < -41f
             )
                 Direction();
         }
@@ -143,6 +143,7 @@ public class FrogBoss : MonoBehaviour
         animator.SetBool("jump", true);
         jumping = true;
         collide.enabled = false;
+        sprite.sortingOrder = 31;
         Direction();
         direction = direction * -1;
         if (direction.x > 0)
@@ -155,6 +156,7 @@ public class FrogBoss : MonoBehaviour
     void StopJump()
     {
         animator.SetBool("jump", false);
+        sprite.sortingOrder = 0;
         jumping = false;
         collide.enabled = true;
     }
