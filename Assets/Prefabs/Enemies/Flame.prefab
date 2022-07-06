@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3296945737094148003}
   - component: {fileID: 3296945737094148000}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3296945737356705551}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 3296945737864993817}
   - component: {fileID: 3296945737864993819}
   - component: {fileID: 3296945737864993816}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 3296945737981346274}
   - component: {fileID: 3296945737981346275}
   - component: {fileID: 3296945737981346296}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Flame
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -383,7 +383,6 @@ MonoBehaviour:
   damage: 20
   speed: 3
   points: 50
-  me: {fileID: 0}
 --- !u!114 &3296945737981346296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -408,7 +407,7 @@ GameObject:
   - component: {fileID: 3296945738801620621}
   - component: {fileID: 3296945738801620623}
   - component: {fileID: 3296945738801620620}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -485,7 +484,7 @@ GameObject:
   - component: {fileID: 3296945738898481826}
   - component: {fileID: 3296945738898481827}
   - component: {fileID: 3296945738898481824}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}

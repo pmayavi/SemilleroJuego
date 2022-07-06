@@ -84,6 +84,10 @@ PrefabInstance:
       value: CatSpell Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5373663098962422903, guid: 851c501c6b37d164f939d0a1cb270b17, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5373663098962422903, guid: 851c501c6b37d164f939d0a1cb270b17, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}

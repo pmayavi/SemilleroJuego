@@ -51,6 +51,7 @@ public class PlayerStats : MonoBehaviour
         player.GetComponent<PlayerMovement>().damage = swordDamage;
         //player.GetComponent<SwordScript>().attackSpeed = swordSpeed;
         //player.GetComponent<SwordScript>().attackSize = swordSize;
+        Physics2D.IgnoreLayerCollision(10, 11, true);
     }
 
     void Update()
