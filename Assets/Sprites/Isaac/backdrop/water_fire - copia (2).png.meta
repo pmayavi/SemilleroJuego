@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 171609de0eeea044d892196729a5f601
+guid: 92c15e73e2a437f489dde1cb7e30ef8f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,22 +104,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: water_fire_0
+      name: water_fire - copia (2)_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 7
         y: 0
         width: 57
         height: 57
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0abfd74698241640abd551d4af2a30c
-      internalID: 1318873939
+      spriteID: 00e27dfef22a54b4c873826b27337f10
+      internalID: -1009960879
       vertices: []
       indices: 
       edges: []
@@ -135,10 +135,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      water_fire_3: 150916107
-      water_fire_1: 1487880593
-      water_fire_0: 1318873939
-      water_fire_2: 658660395
+      water_fire - copia (2)_0: -1009960879
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
