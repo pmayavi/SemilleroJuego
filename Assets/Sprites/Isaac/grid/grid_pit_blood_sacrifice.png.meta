@@ -24,6 +24,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 26
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +76,759 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c736014458f9b8548b3f74c33fc07baa
+      internalID: -1708110630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 230
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d607f2f09e40921439534e2236707b9f
+      internalID: 278078132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 230
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4a8b61f9e546e4fad07c14beae6cf6
+      internalID: 37669893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 230
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2490a7263a27d4e9f0c66011889247
+      internalID: 1118622909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae854e6363c4429469a58efcf4206680
+      internalID: -684461723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 204
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226f23840a9219946a7d69a455b38107
+      internalID: -693259983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_6
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 204
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820e6a2e6568a274d8a3237c91e17a5c
+      internalID: -1571269290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_7
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 204
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1439d211fdfdcfa49ae3df67346f2684
+      internalID: -1885810012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0afe60a883dd9439fc96c925071f4b
+      internalID: 1483160771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 178
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921b3ef67e3abc74481eb367d3ffe96a
+      internalID: -910373429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 178
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9d2e87dfb2e7c49862636af22eb089
+      internalID: 55299765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 178
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c924060a2a978d44ca99060456670eeb
+      internalID: 555588855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a4ccf2a07f5af45a4b6376cf19185b
+      internalID: 163583092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 152
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe56cbad9106ba4a93dc16980c181bf
+      internalID: -70566818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_14
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 152
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e41801a9044340438478bad5e7890a0
+      internalID: 1999043581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_15
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 152
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084b859821e153d49b77a8c1448a0bb9
+      internalID: 1874390131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b98a9d4cb90b1489cd8257b9213ec2
+      internalID: 1731785246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_17
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 126
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31aff5e01d46d1b4f8f267f26a86076e
+      internalID: -1394342069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 126
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e262aefdad70f5d4dbf687eb51575f3c
+      internalID: 710336696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_19
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 126
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e18daa48f8e4d4e9a648f809a689e0
+      internalID: 1687434952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f93e7a77fc81e499776d380ca9292f
+      internalID: 780791568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_21
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 100
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0836630b28b6ef47a44c642a741abac
+      internalID: -1710942675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 100
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d56a5953c217b4a92f40aa2ff99a68
+      internalID: -235669738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 100
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a838184665308c445bdf05011e8ea3d2
+      internalID: -951030180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01e87d6f21b042458c513cea58b3a15
+      internalID: -161149313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_25
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 74
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8319db519b86264690536149d80ee63
+      internalID: -1286911052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_26
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 74
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bae106f1e227e542a6c7273d4321538
+      internalID: 2122447073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_27
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 74
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168580c3c2f7f0348995ea6ee1fcc39b
+      internalID: 1497158863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c457760129646448772ca53923e26b
+      internalID: -1354343978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_29
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 48
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e8362632697424289fdfceee11e7ac
+      internalID: -1752496370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_30
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 48
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c89fd01b044c5449a22168fdc4ba3b
+      internalID: 999612228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_31
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 48
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59508a66c33ef045a686e89162aa70c
+      internalID: -2039721279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12304be2bec5a04dbc642777a8ead64
+      internalID: 85970206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_pit_blood_sacrifice_33
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46059d0d6e4a89644a19cb5c1c23665d
+      internalID: -212397353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -88,6 +839,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      grid_pit_blood_sacrifice_2: 37669893
+      grid_pit_blood_sacrifice_23: -951030180
+      grid_pit_blood_sacrifice_24: -161149313
+      grid_pit_blood_sacrifice_19: 1687434952
+      grid_pit_blood_sacrifice_20: 780791568
+      grid_pit_blood_sacrifice_28: -1354343978
+      grid_pit_blood_sacrifice_31: -2039721279
+      grid_pit_blood_sacrifice_29: -1752496370
+      grid_pit_blood_sacrifice_11: 555588855
+      grid_pit_blood_sacrifice_6: -1571269290
+      grid_pit_blood_sacrifice_33: -212397353
+      grid_pit_blood_sacrifice_14: 1999043581
+      grid_pit_blood_sacrifice_18: 710336696
+      grid_pit_blood_sacrifice_21: -1710942675
+      grid_pit_blood_sacrifice_4: -684461723
+      grid_pit_blood_sacrifice_25: -1286911052
+      grid_pit_blood_sacrifice_0: -1708110630
+      grid_pit_blood_sacrifice_9: -910373429
+      grid_pit_blood_sacrifice_26: 2122447073
+      grid_pit_blood_sacrifice_30: 999612228
+      grid_pit_blood_sacrifice_10: 55299765
+      grid_pit_blood_sacrifice_5: -693259983
+      grid_pit_blood_sacrifice_7: -1885810012
+      grid_pit_blood_sacrifice_13: -70566818
+      grid_pit_blood_sacrifice_1: 278078132
+      grid_pit_blood_sacrifice_27: 1497158863
+      grid_pit_blood_sacrifice_15: 1874390131
+      grid_pit_blood_sacrifice_8: 1483160771
+      grid_pit_blood_sacrifice_32: 85970206
+      grid_pit_blood_sacrifice_3: 1118622909
+      grid_pit_blood_sacrifice_12: 163583092
+      grid_pit_blood_sacrifice_16: 1731785246
+      grid_pit_blood_sacrifice_17: -1394342069
+      grid_pit_blood_sacrifice_22: -235669738
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -24,6 +24,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +76,1116 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: door_01_burningbasement_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 215
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903cbd14f2032394c9284f2e3918fb18
+      internalID: -1119825499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 215
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb900ccaaa152664ead77c331db8f3b1
+      internalID: 338640930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 215
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57af27e7f52104c4fba4439663d8ca8d
+      internalID: 1936146019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 198
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc87155438856c4492d36b101251667
+      internalID: -163760104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 198
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd401a2d81a97624e8228b8bcb655d8b
+      internalID: 1038218235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 198
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dda3f6adfe8832458f6e1c52ee00398
+      internalID: 802579139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 164
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb41bd753273ba9469ca4e5bdecf6199
+      internalID: -990986106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 164
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b25439347951f44e81664e2aabecbc2
+      internalID: -405559136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 164
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28b6d262a6d9d24ba8788d4e7924a8d
+      internalID: -1897277104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 147
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5a13448b749fb4fb29fc3f4346e769
+      internalID: 1840296421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 147
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f187f96eb59f9429fa7d2fbb834f85
+      internalID: 2146652292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 130
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8fa8ca3a5112e458187a9956daaa19
+      internalID: 393635106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 130
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fe3c0468c91d5479a68625414a9d5b
+      internalID: -164262124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 113
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef5cca257a0c3a4287d1702f71cba07
+      internalID: -1073732344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_15
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 113
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5ccfe24d0e9fc478f1c0a40ba675c4
+      internalID: -221721401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 113
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b271726c30cbc4f99ecc70bc96462d
+      internalID: 1584864319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_17
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 113
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a951436e30cb8e4a8464e8865df41e0
+      internalID: 1371339140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 113
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c399c55ed80f54da3e3412e22291df
+      internalID: -94983085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_19
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 113
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af842a8f952f28429dc44ccd6c1b5c1
+      internalID: -1241542237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee8c174fe98feb4f8fad50e702f4534
+      internalID: 1384191451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 96
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c09763548ca6f47b1cd0d91563d3ee
+      internalID: 400763321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 96
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72193546a35a16a4296871174ba2c19d
+      internalID: -703153177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_23
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 96
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411ec16b1c3198643a48221aa4fbe1ce
+      internalID: 1274956784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_24
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 96
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa627aefc6338b4c857a7b18f5c4ce9
+      internalID: 1317069572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 79
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b03b448c3ce454ebc8dd8d97680858
+      internalID: -1276027951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_26
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 79
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4efbfb4b2816cf46a783f4138dacba7
+      internalID: -1659036496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_27
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 79
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c59ba0dcce44d7459e482f794b754f1
+      internalID: 563461536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_28
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 79
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd591c38ab3c6642a66825fefd9cde4
+      internalID: 769825335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_29
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 79
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4cb22bf95a1e74788b1f4302bfaf8c
+      internalID: 137577504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 62
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b1fee5f4c5a3e43bd0e8f24402bc41
+      internalID: 1718387418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 62
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df67dfd4afbccbe4eb3840d3cbc8e2c6
+      internalID: 573470627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_32
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 62
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d10bf7ab75d5f3438429673180889c5
+      internalID: 412587977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_33
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 62
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b5adb0bb15e564aa6d83324a9cdfdb
+      internalID: 1079698470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_34
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 62
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9659ae963ff386f4bbcc28df1e544811
+      internalID: -1492074314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_35
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 45
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b8755c288ee3a43b07375f619ed5ee
+      internalID: -141586170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_36
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 45
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133237fd82c7e4746bac99a940f33433
+      internalID: -604891402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_37
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 45
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b13a583c42de54418c2ec125dc1675f
+      internalID: -929946061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_38
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 45
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d273eaa8a65178446abd02262056c02d
+      internalID: -34223841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_39
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 45
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda93173a77ce14429b434e55785a188
+      internalID: -136157581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_40
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 45
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e400531bc9733d048b0430f98bfadfa6
+      internalID: 1323475626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 28
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c51ce603ee5a314ea00bc683d18dc7a
+      internalID: 1815218366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_42
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 28
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547617547d7813243b14b49dc656a015
+      internalID: -1036850331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_43
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 28
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eae39de2084ea84387407d48d7c4449
+      internalID: -1209023344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_44
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 28
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d654edb19cd76ef458e39bd13fdef8be
+      internalID: 185065714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_45
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 28
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67083ee120d89c240a2292bb1f87b126
+      internalID: -2139759987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_46
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 28
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e36d271e2084942b1131e14c4e0e75
+      internalID: -1567855788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_47
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 11
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af134087fc9e1394392660b48a2f5e28
+      internalID: 829301866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_48
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 11
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38619ad3830c3094db1d22fcedc471a1
+      internalID: 41573640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_49
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 11
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ab4ba6c90549a4bbcc88984dfbd96c
+      internalID: -1843771063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_50
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 11
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5c286a35b94d8498c394a0cf787069
+      internalID: -1141752092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01_burningbasement_51
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 11
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfaf56fb49c3c2043870cc291e9b7884
+      internalID: -1506892707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -88,6 +1196,59 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      door_01_burningbasement_30: 1718387418
+      door_01_burningbasement_36: -604891402
+      door_01_burningbasement_38: -34223841
+      door_01_burningbasement_10: 1840296421
+      door_01_burningbasement_47: 829301866
+      door_01_burningbasement_26: -1659036496
+      door_01_burningbasement_25: -1276027951
+      door_01_burningbasement_48: 41573640
+      door_01_burningbasement_16: 1584864319
+      door_01_burningbasement_44: 185065714
+      door_01_burningbasement_33: 1079698470
+      door_01_burningbasement_13: -164262124
+      door_01_burningbasement_31: 573470627
+      door_01_burningbasement_11: 2146652292
+      door_01_burningbasement_21: 400763321
+      door_01_burningbasement_50: -1141752092
+      door_01_burningbasement_46: -1567855788
+      door_01_burningbasement_22: -703153177
+      door_01_burningbasement_27: 563461536
+      door_01_burningbasement_51: -1506892707
+      door_01_burningbasement_29: 137577504
+      door_01_burningbasement_1: 338640930
+      door_01_burningbasement_41: 1815218366
+      door_01_burningbasement_37: -929946061
+      door_01_burningbasement_15: -221721401
+      door_01_burningbasement_45: -2139759987
+      door_01_burningbasement_23: 1274956784
+      door_01_burningbasement_8: -405559136
+      door_01_burningbasement_40: 1323475626
+      door_01_burningbasement_5: 1038218235
+      door_01_burningbasement_19: -1241542237
+      door_01_burningbasement_4: -163760104
+      door_01_burningbasement_12: 393635106
+      door_01_burningbasement_28: 769825335
+      door_01_burningbasement_17: 1371339140
+      door_01_burningbasement_2: 1936146019
+      door_01_burningbasement_18: -94983085
+      door_01_burningbasement_42: -1036850331
+      door_01_burningbasement_14: -1073732344
+      door_01_burningbasement_43: -1209023344
+      door_01_burningbasement_7: -990986106
+      door_01_burningbasement_39: -136157581
+      door_01_burningbasement_20: 1384191451
+      door_01_burningbasement_32: 412587977
+      door_01_burningbasement_35: -141586170
+      door_01_burningbasement_24: 1317069572
+      door_01_burningbasement_34: -1492074314
+      door_01_burningbasement_49: -1843771063
+      door_01_burningbasement_6: 802579139
+      door_01_burningbasement_3: -1225180714
+      door_01_burningbasement_9: -1897277104
+      door_01_burningbasement_0: -1119825499
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

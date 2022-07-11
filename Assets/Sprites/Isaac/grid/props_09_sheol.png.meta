@@ -24,6 +24,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 26
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +76,1179 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: props_09_sheol_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5a332a7170e2f4cbb6d01cfb119564
+      internalID: 1825224086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 230
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338ac83e64584ae41b8c3fbf6e911f8c
+      internalID: 832405210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 230
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4c7aff650d4604ca56100d7a0e87e7
+      internalID: 673878317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 230
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69fb69d39f9bee4a9dad89f24ee68e2
+      internalID: 265609767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 230
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed8393fe4853ff47afda60325b7c118
+      internalID: -1798862463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 230
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc2fc5d6db07734da1077820e7352cf
+      internalID: -1685720859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 230
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112bc44fc01186349a65081c0cb355ea
+      internalID: -1445473436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 230
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e6f44958819294aa054d0e466b9095
+      internalID: 306122242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 230
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136524ba057236b4ba63fd152727132c
+      internalID: 1539452936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b102aae6c9dc4ae4bb00363ab84cbc16
+      internalID: 904997159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 204
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147e58f7b62de2341a2873e5e4d6c729
+      internalID: 336028749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 204
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b759e991503c34188e9ca7ecd1a0d0
+      internalID: 710668448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_12
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 204
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0671a5ffed0e5744aa44f1b66f66bdaa
+      internalID: 807666410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 204
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebd1cc2c4763bf488e660068b248a3b
+      internalID: 651669713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 204
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb1bde94ed6cba4eb8762d8847df895
+      internalID: -2004581144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_15
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 204
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758771a12e762fe48aeced1fbad7a702
+      internalID: 497295762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_16
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 204
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bfd00e892d8fe43a19596e985f07db
+      internalID: 1676400574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_17
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 204
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d2b9ff1fd6183488631064bdf98af1
+      internalID: 1663817440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9623454bfb1fdff4fad0c1703908a5a8
+      internalID: -705573510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_19
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 178
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279d19ad5b7055b4192c414928340cf4
+      internalID: 442429560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 178
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c0fcfc1adbcf04aa7708a249e48540
+      internalID: 677030867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 178
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9e31c69a582594ab74704e5bae75df
+      internalID: -945168984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_22
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 178
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d9b5d84c353b743b8d5f27c0a3f49e
+      internalID: -592461949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_23
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 178
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feac7c05521679c4d9c170c7003bb983
+      internalID: -1559478345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_24
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 178
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ba8a3f38e390f4c8fa889c5bde48d5
+      internalID: -235949569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_25
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 178
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d28feb2dabf95847af7ed10501a5fe2
+      internalID: -690852061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_26
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 178
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc2444c182fc1c4a8925d604170f1f1
+      internalID: -1713279930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51f4f25479ef0143aa90949da888e9c
+      internalID: 1622761199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_28
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 152
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedceaabed1c20547aca8a93507728a4
+      internalID: 931083718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 152
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a84a39f305545349829c53b9a31822d
+      internalID: -1743916459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_30
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 152
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e801d94de4bc624c95c671e37e6712e
+      internalID: 1631932202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_31
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 152
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ca956b1d66a3640bfb8d03941d3370
+      internalID: 411744562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_32
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 152
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8cb44088c72a84189f841580e4f3b1
+      internalID: 246462692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_33
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 152
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808523419bcca6846a6c7742d7d02ca4
+      internalID: -646492542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_34
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 152
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2ca31649bec02449c900eaf7c2c3ac
+      internalID: -1715181303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_35
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 152
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6689986d516b10d40a4ac6b7f48ac75d
+      internalID: -1218394980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28abc9ca47842a249826776bd80aad04
+      internalID: 984561694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_37
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 126
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3cf53e02ea15845bdfe53bd69fb9f4
+      internalID: -1567436589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_38
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 126
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792aa3343e21cff46b2dfb4895b1fc41
+      internalID: 847771743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_39
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 126
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f186973f7b8fa44ab2ce353ba163b6
+      internalID: 1870095037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_40
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 126
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5565a19bcca774428c3234e28a383eb
+      internalID: -1542730323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_41
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 126
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ffee00cde81534eb55f47943fbd8b5
+      internalID: -1596277303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_42
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 126
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701bb58426d1a3d4c943a9efee199b5e
+      internalID: 402472523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_43
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 126
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59592669f8dbe1f468d0a3216628a1ca
+      internalID: -1325365274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_44
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 126
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c959afce8b60b4298a5cdcce027ce8
+      internalID: 1668353856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ed1d87f7d2cdb47991f6b558e8e2bd
+      internalID: -1073585687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_46
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 100
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b33e10e5191c843955f7e24757ea02
+      internalID: -459245454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_47
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 100
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c77ace6eef2c3942855befce0449b20
+      internalID: 112539616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_48
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 100
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea4c221c8b0fa345a30b229e0c6758d
+      internalID: 508787608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_49
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 100
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150f379413de9c64babb5054832769d6
+      internalID: -1046310253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_50
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 100
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb333a891e70594aaaf5ad03361a470
+      internalID: 1597954449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_51
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 100
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3a3bb7ecaddc049ba1e658051cbc91
+      internalID: -1062667704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_52
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 100
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b3a2047c46a464a8ae815a39454edb
+      internalID: -437514684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props_09_sheol_53
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 100
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b2d58460783ac4399ffa19acc55a56
+      internalID: 1397502038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -88,6 +1259,61 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      props_09_sheol_30: 1631932202
+      props_09_sheol_23: -1559478345
+      props_09_sheol_43: -1325365274
+      props_09_sheol_25: -690852061
+      props_09_sheol_49: -1046310253
+      props_09_sheol_39: 1870095037
+      props_09_sheol_38: 847771743
+      props_09_sheol_51: -1062667704
+      props_09_sheol_7: 306122242
+      props_09_sheol_8: 1539452936
+      props_09_sheol_16: 1676400574
+      props_09_sheol_36: 984561694
+      props_09_sheol_52: -437514684
+      props_09_sheol_50: 1597954449
+      props_09_sheol_18: -705573510
+      props_09_sheol_42: 402472523
+      props_09_sheol_40: -1542730323
+      props_09_sheol_41: -1596277303
+      props_09_sheol_19: 442429560
+      props_09_sheol_20: 677030867
+      props_09_sheol_13: 651669713
+      props_09_sheol_21: -945168984
+      props_09_sheol_31: 411744562
+      props_09_sheol_45: -1073585687
+      props_09_sheol_2: 673878317
+      props_09_sheol_5: -1685720859
+      props_09_sheol_15: 497295762
+      props_09_sheol_27: 1622761199
+      props_09_sheol_12: 807666410
+      props_09_sheol_37: -1567436589
+      props_09_sheol_14: -2004581144
+      props_09_sheol_28: 931083718
+      props_09_sheol_4: -1798862463
+      props_09_sheol_17: 1663817440
+      props_09_sheol_32: 246462692
+      props_09_sheol_48: 508787608
+      props_09_sheol_35: -1218394980
+      props_09_sheol_53: 1397502038
+      props_09_sheol_47: 112539616
+      props_09_sheol_3: 265609767
+      props_09_sheol_6: -1445473436
+      props_09_sheol_9: 904997159
+      props_09_sheol_10: 336028749
+      props_09_sheol_22: -592461949
+      props_09_sheol_1: 832405210
+      props_09_sheol_34: -1715181303
+      props_09_sheol_29: -1743916459
+      props_09_sheol_33: -646492542
+      props_09_sheol_44: 1668353856
+      props_09_sheol_0: 1825224086
+      props_09_sheol_24: -235949569
+      props_09_sheol_11: 710668448
+      props_09_sheol_46: -459245454
+      props_09_sheol_26: -1713279930
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
